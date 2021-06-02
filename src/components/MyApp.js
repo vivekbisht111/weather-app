@@ -86,7 +86,7 @@ class MyApp extends React.Component {
    axios
     .get(URL2)
     .then((res) => {
-     console.log("Forecast Data : ", res);
+     console.log("Forecast: ", res);
      return res.data;
     })
     .then((data) => {
