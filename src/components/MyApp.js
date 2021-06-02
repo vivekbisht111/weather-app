@@ -73,7 +73,7 @@ class MyApp extends React.Component {
      this.setState({
       isLoading: false,
       name: data.name,
-      temperature: data.weather.feels_like - 273.15,
+      temperature: Math.round(data.main.feels_like - 273.15, 4),
       desc: data.weather[0].description,
       iconurl: `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`,
      });
