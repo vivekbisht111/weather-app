@@ -9,7 +9,7 @@ class Top_portion extends React.Component {
  render() {
   return (
    <div className="top">
-    <div className="title"> My Weather </div>
+    <div className="title"> Your Weather </div>
     <TopContent {...this.props} />
    </div>
   );

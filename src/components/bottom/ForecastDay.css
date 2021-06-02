@@ -1,9 +1,9 @@
-.Fday{
-    display: flex;
-    flex-direction: column;
-    height : 95%;
-    width: 145px;
-    font-size: 20px;
-    justify-content: space-between;
-    align-items: center;
+.Fday {
+ display: flex;
+ flex-direction: column;
+ height: 95%;
+ width: 10em;
+ font-size: 1.2em;
+ justify-content: space-between;
+ align-items: center;
 }
